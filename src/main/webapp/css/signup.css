@@ -1,0 +1,125 @@
+@font-face {
+    font-family: oldSchool;
+    src: url(https://0eb513406bef213eb70d918b511d1a4ef5917b32.googledrive.com/host/0B_OO4vWCpQuNfjZhZlMwMTB3UW9GUkY5ckkwZEFDU1RkRTNpaE41Y0hhUHlTQklncDdYVnc/Fonts/old_school_united/old_school_united_shadow.ttf);
+}
+
+body{
+    font-family: Comfortaa;
+}
+
+/* Header */
+.nav{
+    margin-bottom: .5%;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto auto;
+    padding: 0;
+    border-radius: 0;
+}
+
+.container-fluid>.navbar-header{
+    margin: 0;
+    width: 100%;
+}
+
+.navbar-header{
+    width: 100%;
+    padding: 0;
+    margin: auto auto;
+}
+
+.navbar-brand{
+    height: 10%;
+    float: none;
+    display: block;
+    margin: auto auto;
+    padding: auto 0;
+    width: 100%;
+    text-align: center;
+    font-size: 3.6em;
+}
+
+.content{
+    margin-left: 0%;
+    padding-bottom: 5%;
+    background-color: #333333;
+}
+
+.content label{
+    color: white;
+}
+
+.content #reg{
+    padding-top: 3%;
+    margin-left: 5%;
+}
+
+.content fieldset{
+    margin-left: -1%;
+}
+
+.content fieldset legend{
+    color: white;
+    margin-left: -2.5%;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{   
+    border-color: red;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #CCCCCC;
+    outline: 0 none;
+}
+
+.content .help-block{
+    color: red;
+}
+
+#signUp{
+    display: block;
+    margin-left: -2.15%;
+    font-weight: bold;
+}
+
+#forget{
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+}
+
+#forget > a{
+    display: block;
+    margin-left: 44.5%;
+    color: white;
+    text-decoration: none;
+}
+
+#footer{
+    background-color: #CCCCCC;
+    font-family: Comfortaa;
+    display: block;
+    text-align: center;
+    padding-bottom: .6%;
+}
+
+.breadcrumb{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.breadcrumb li{
+    font-size: 16px;
+}
+
+.breadcrumb a{
+    color: red;
+    text-decoration: none;
+}
+
+.breadcrumb > li + li:before {
+    color: black;
+    content: "/ ";
+    padding: 0 5px;
+}
